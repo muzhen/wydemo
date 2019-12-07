@@ -1,7 +1,6 @@
 import React,{useState, Component} from 'react'
 import classNames from 'classnames'
-import PropTypes from 'prop-types'
-import Icon from '../Icon' 
+import PropTypes from 'prop-types' 
 import './index.scss'
 class InputNumber extends Component{
 	constructor(props){
@@ -40,11 +39,9 @@ class InputNumber extends Component{
 		const {
 			focus
 		} = this.state
-		const {
-			icon,
+		const { 
 			children,
-			size,
-			prefix,
+			size, 
 			suffix,
 			onChange,
 			rule= new RegExp(),
@@ -61,8 +58,7 @@ class InputNumber extends Component{
 		console.log(rest); 
 		return (
 			<div>
-			<div className={cls}>
-				{prefix && <Icon name={prefix}/>}
+			<div className={cls}> 
 				<input
 					value={this.value}
 
@@ -82,8 +78,7 @@ class InputNumber extends Component{
 						}
 						this.props.onChange(e)
 					}}
-				/>
-				{suffix && <Icon name={suffix}/>}
+				/> 
 
 
 			</div>

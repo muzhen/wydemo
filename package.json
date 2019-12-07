@@ -39,5 +39,17 @@
   },
   "devDependencies": {
     "typescript": "^3.7.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "data.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzhen/wydemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muzhen/wydemo/issues"
+  },
+  "homepage": "./"
 }
